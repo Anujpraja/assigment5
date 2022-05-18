@@ -1,50 +1,92 @@
-.firstcontainer {
-    width: 90%;
+body {
+    background-color: #ffffff;
     display: flex;
-    margin-left: 5%;
+    flex-direction: column;
+    font-family: sans-serif;
 }
 
 .head {
-    width: 60%;
-}
-
-.head h4 {
-    width: 70%;
-    padding: 2%;
-}
-
-.middlehead p {
-    width: 70%;
-    padding: 2%;
-    margin-top: -30px;
-}
-
-nav {
-    width: 30%;
-    display: inline-block;
-    justify-content: end;
-    margin-left: 25%;
-}
-
-ul {
-    width: 80%;
+    padding-left: 3%;
+    padding-right: 3%;
     display: flex;
-    text-decoration: none;
-    list-style: none;
-    padding: 4% 12%;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.maindiv {
+    width: 100%;
+    display: flex;
     justify-content: space-between;
 }
 
-li a {
-    font-size: 14px;
+.divsecond {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-nav a {
+.name {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.name:hover {
+    color: #666666;
+}
+
+.navb {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #777777;
+}
+
+.homecolors {
     text-decoration: none;
+    color: grey;
+}
+
+.homecolors:hover {
     color: black;
 }
 
-nav a:hover {
+.haeding .linksnav {
+    padding: 10px 15px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.about {
+    text-decoration: none;
+    color: inherit;
+}
+
+.homecolor {
+    text-decoration: none;
+    color: grey;
+}
+
+.homecolor:hover {
+    color: black;
+}
+
+.resume:hover {
+    color: black;
+}
+
+.resume {
+    text-decoration: none;
+    color: grey;
+}
+
+.aboutus {
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+}
+
+.aboutus:hover {
     color: grey;
 }
 
@@ -127,12 +169,13 @@ p {
         display: inline-block;
     }
     .containerimages {
-        width: 200px;
+        width: 240px;
     }
     .containerimages img {
-        width: 200px;
+        width: 220px;
+        margin-left: 20px;
     }
     .text {
-        width: 240px;
+        width: 260px;
     }
 }

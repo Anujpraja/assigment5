@@ -1,49 +1,76 @@
-.firstcontainer {
-    width: 90%;
+body {
+    background-color: #ffffff;
     display: flex;
-    margin-left: 5%;
+    flex-direction: column;
+    font-family: sans-serif;
 }
 
 .head {
-    width: 60%;
-}
-
-.head h4 {
-    width: 70%;
-    padding: 2%;
-}
-
-.middlehead p {
-    width: 70%;
-    padding: 2%;
-    margin-top: -30px;
-}
-
-nav {
-    width: 30%;
-    display: inline-block;
-    justify-content: end;
-    margin-left: 25%;
-}
-
-ul {
-    width: 80%;
+    padding-left: 3%;
+    padding-right: 3%;
     display: flex;
-    text-decoration: none;
-    list-style: none;
-    padding: 4% 12%;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.maindiv {
+    width: 100%;
+    display: flex;
     justify-content: space-between;
 }
 
-li a {
-    font-size: 14px;
+.divsecond {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.name:hover {
+    color: #666666;
+}
+
+.navb {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #777777;
+}
+
+.haeding .linksnav {
+    padding: 10px 15px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.a:hover {
+    color: grey;
+}
+
+.linksnav a:hover {
+    color: black;
+}
+
+.about {
+    text-decoration: none;
+    color: inherit;
+}
+
+.resume {
+    color: grey;
 }
 
 .second-container {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 .box {
@@ -124,4 +151,35 @@ p {
 
 .containerlast p:hover {
     color: black;
+}
+
+@media only screen and (max-width:400px) {
+    .head {
+        display: inherit;
+    }
+    .second-container {
+        display: inline-block;
+        width: 300px;
+        margin-left: 25px;
+    }
+    .image-div {
+        width: 280px;
+        margin-left: 140px;
+    }
+    .heading {
+        width: 260px;
+        margin-left: 120px;
+    }
+    .heading p {
+        width: 250px;
+        margin-left: 10px;
+        align-items: center;
+        text-align: center;
+    }
+    .title {
+        width: 300px;
+        align-items: center;
+        text-align: center;
+        margin-left: 115px;
+    }
 }
